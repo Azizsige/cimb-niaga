@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .bar {
+    background: linear-gradient(90deg, red 50%, #C8CBD0 50%);
+  }
+}
