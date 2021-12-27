@@ -10,7 +10,8 @@ module.exports = {
         'secondary': '#C8CBD0',
         'cardCalc': '#DEE1E6',
         'cardInfo': '#B1B3B7',
-        'textAlternate': '#797979'
+        'textAlternate': '#797979',
+        'textPrimary': '#818387',
       },
       fontFamily: {
         'primary': ['"Roboto", "sans-serif"']
