@@ -88,8 +88,55 @@
     <div class="container-loan">
       <div class="loan-header bg-[#DEE1E6] border-l-[20px] border-primary w-11/12 lg:w-[60%] h-20 lg:h-28 flex mx-auto mt-10 lg:mt-20">
         <div class="tagline flex flex-col justify-center items-start ml-3 font-primary">
-          <h1 class="text-primary font-bold text-2xl lg:text-4xl">Loan Calculator</h1>
+          <h1 class="text-primary font-bold text-xl lg:text-4xl">Loan Calculator</h1>
           <p class="text-textPrimary font-bold lg:text-xl">Please use our loan calculator below</p>
+        </div>
+      </div>
+
+      <div class="loan-calc bg-[#DEE1E6] w-11/12 lg:w-[60%] h-96 lg:h-[1269px] flex mx-auto mt-3 lg:mt-4 border">
+        <div class="container-amount mx-auto w-full">
+          <div class="loan-amount__calc">
+            <div class="calc flex justify-between items-center p-5 lg:p-9">
+              <div class="heading font-primary">
+                <p class="text-lg font-bold sm:text-2xl md:text-3xl lg:text-4xl">Loan Amount</p>
+                <p class="text-xs text-textAlternate font-bold sm:text-lg md:text-xl">Amount is multiple of 1,000</p>
+             </div>
+             <div class="output flex h-auto w-[37%] justify-end">
+                 <p class="text-xs text-primary font-bold mr-1 sm:text-lg self-start lg:text-md">USD</p>
+                 <div class="output-number border border-black h-7 w-[100%] flex justify-center items-center bg-white font-primary sm:h-10 sm:w-[60%] lg:h-14">
+                   <div id="num">
+                     <p class="text-primary font-bold sm:text-xl md:text-2xl lg:text-4xl">100,000</p>
+                   </div>
+                 </div>
+             </div>
+            </div>
+            <div class="input-range flex justify-center items-center font-primary text-textAlternate font-bold w-full mt-1.5">
+              <p class="text-sm mr-3 sm:text-lg md:text-xl lg:text-2xl">10,000</p>
+              <input type="range" name="" id="" class="w-[130px] h-[6px] slider rounded-full sm:w-[300px] sm:h-[10px] md:w-[65%]">
+              <p class="text-sm ml-3 sm:text-lg md:text-xl lg:text-2xl">100,000</p>
+            </div>
+          </div>
+          <div class="loan-tenure__calc mt-6">
+            <div class="calc flex justify-between items-center p-5 lg:p-9">
+              <div class="heading font-primary">
+                <p class="text-lg font-bold sm:text-2xl md:text-3xl lg:text-4xl">Loan Tenure</p>
+                <p class="text-xs text-textAlternate font-bold sm:text-lg md:text-xl">Tenure is multiple of months</p>
+             </div>
+             <div class="output flex h-auto w-[37%] justify-end">
+                 <p class="text-xs text-primary font-bold mr-1 sm:text-lg self-center lg:text-md">Months</p>
+                 <div class="output-number border border-black h-7 w-[30%] flex justify-center items-center bg-white font-primary sm:h-10 sm:w-[30%] lg:h-14">
+                   <div id="num">
+                     <p class="text-primary font-bold sm:text-xl md:text-2xl lg:text-4xl">3</p>
+                   </div>
+                 </div>
+             </div>
+            </div>
+            <div class="input-range flex justify-center items-center font-primary text-textAlternate font-bold w-full mt-1.5">
+              <p class="text-sm mr-3 sm:text-lg md:text-xl lg:text-2xl">3</p>
+              <input type="range" name="" id="" class="w-[130px] h-[6px] slider rounded-full sm:w-[300px] sm:h-[10px] md:w-[65%]">
+              <p class="text-sm ml-3 sm:text-lg md:text-xl lg:text-2xl">24</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

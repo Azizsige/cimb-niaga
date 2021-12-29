@@ -6,4 +6,86 @@
   .bar {
     background: linear-gradient(90deg, red 50%, #C8CBD0 50%);
   }
+
+  .slider {
+    -webkit-appearance: none;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #E8211D;
+    border-radius: 100%;
+    border: 2px solid #000;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #E8211D;
+    border-radius: 100%;
+    border: 1px solid #000;
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 640px){
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 25px;
+      height: 25px;
+      background: #E8211D;
+      border-radius: 100%;
+      border: 2px solid #000;
+      cursor: pointer;
+    }
+    
+    .slider::-moz-range-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 25px;
+      height: 25px;
+      background: #E8211D;
+      border-radius: 100%;
+      border: 1px solid #000;
+      cursor: pointer;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+    .slider::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 35px;
+      height: 35px;
+      background: #E8211D;
+      border-radius: 100%;
+      border: 2px solid #000;
+      cursor: pointer;
+    }
+    
+    .slider::-moz-range-thumb {
+      -webkit-appearance: none;
+      appearance: none;
+      width: 35px;
+      height: 35px;
+      background: #E8211D;
+      border-radius: 100%;
+      border: 1px solid #000;
+      cursor: pointer;
+    }
+  }
 }
