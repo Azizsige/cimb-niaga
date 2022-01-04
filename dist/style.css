@@ -1253,6 +1253,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 1.25rem;
   }
 
+  .lg\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
